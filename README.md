@@ -110,4 +110,4 @@ Pure read → transform → write. No network calls, no eval/exec.
 Predictable I/O and explicit error messages for auditability.
 
 ## License
-MIT (or your internal license).
+MIT
