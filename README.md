@@ -84,13 +84,10 @@ id,name,role
 |   99 | Unexpected exception                    |
 
 ## Design Notes
-No third-party modules. Safe for restricted environments.
-
-Deterministic columns. If --fields is omitted, columns are inferred in a stable order.
-
-Windows-safe CSV. Uses newline='' to avoid blank lines.
-
-Performance: Loads JSON into memory. For very large JSON files, consider chunking upstream or NDJSON (future enhancement).
+- No third-party modules. Safe for restricted environments.
+- Deterministic columns. If --fields is omitted, columns are inferred in a stable order.
+- Windows-safe CSV. Uses newline='' to avoid blank lines.
+- Performance: Loads JSON into memory. For very large JSON files, consider chunking upstream or NDJSON (future enhancement).
 
 ## Examples
 
