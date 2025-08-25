@@ -1,0 +1,18 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Project outputs (ignore generated CSVs)
+*.csv

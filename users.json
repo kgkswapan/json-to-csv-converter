@@ -1,0 +1,42 @@
+{
+    "a49454": {
+        "name": "Alex Wilson",
+        "role": "EDITOR"
+    },
+    "a96180": {
+        "name": "Mason Anderson",
+        "role": "EDITOR"
+    },
+    "a11752": {
+        "name": "Olivia Anderson",
+        "role": "VIEWER"
+    },
+    "a60746": {
+        "name": "John Brown",
+        "role": "ADMIN"
+    },
+    "a28061": {
+        "name": "Alex Smith",
+        "role": "ADMIN"
+    },
+    "a79131": {
+        "name": "Sophia Doe",
+        "role": "USER"
+    },
+    "a30879": {
+        "name": "Jane Miller",
+        "role": "ADMIN"
+    },
+    "a35393": {
+        "name": "Ava Thomas",
+        "role": "VIEWER"
+    },
+    "a98667": {
+        "name": "Ethan Taylor",
+        "role": "ADMIN"
+    },
+    "a44838": {
+        "name": "Olivia Brown",
+        "role": "USER"
+    }
+}
