@@ -107,9 +107,8 @@ python json_to_csv.py data.json --encoding cp1252
 ```
 
 ## Security & compliance
-Pure read → transform → write. No network calls, no eval/exec.
-
-Predictable I/O and explicit error messages for auditability.
+- Pure read → transform → write. No network calls, no eval/exec.
+- Predictable I/O and explicit error messages for auditability.
 
 ## License
 MIT
