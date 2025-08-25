@@ -55,15 +55,11 @@ id,name,role
 ```
 
 ## Options
---output, -o Path to output CSV. Defaults to <input>.csv.
-
---fields Comma-separated list of columns (order enforced). Extra JSON keys are ignored.
-
---encoding Text encoding (default: utf-8).
-
---delimiter CSV delimiter (default: ,).
-
---verbose, -v Verbose logging.
+- output, -o Path to output CSV. Defaults to <input>.csv.
+- fields Comma-separated list of columns (order enforced). Extra JSON keys are ignored.
+- encoding Text encoding (default: utf-8).
+- delimiter CSV delimiter (default: ,).
+- verbose, -v Verbose logging.
 
 ## Logging & exit codes
 
