@@ -73,9 +73,8 @@ id,name,role
 
 ## Logging & exit codes
 
---INFO/DEBUG logs go to stdout/stderr depending on level. Use -v for debugging.
-
---Exit codes:
+- INFO/DEBUG logs go to stdout/stderr depending on level. Use -v for debugging.
+- Exit codes:
 
 | Code | Meaning                                 |
 | ---: | --------------------------------------- |
