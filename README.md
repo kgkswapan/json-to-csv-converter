@@ -15,7 +15,7 @@ usage: json_to_csv.py [-h] [--output OUTPUT] [--fields FIELDS]
                       [--encoding ENCODING] [--delimiter DELIMITER] [--verbose]
                       input_json
 ```
-## basic usage
+## Basic usage
 
 ### Auto-writes next to input as data.csv
 ```bash
