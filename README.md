@@ -14,21 +14,31 @@ python json_to_csv.py -h
 usage: json_to_csv.py [-h] [--output OUTPUT] [--fields FIELDS]
                       [--encoding ENCODING] [--delimiter DELIMITER] [--verbose]
                       input_json
+```
 ## basic usage
 
-# Auto-writes next to input as data.csv
+### Auto-writes next to input as data.csv
+```bash
 python json_to_csv.py data.json
+```
 
-# Explicit output path
+### Explicit output path
+```bash
 python json_to_csv.py data.json -o result.csv
+```
 
-# Force field order (columns)
+### Force field order (columns)
+```bash
 python json_to_csv.py data.json --fields id,name,role
+```
 
-# Verbose logs
+### Verbose logs
+```bash
 python json_to_csv.py data.json -v
+```
 
-# Windows/Excel users: in some locales Excel expects ; as separator
+### Windows/Excel users: in some locales Excel expects ; as separator
+```bash
 python json_to_csv.py data.json --delimiter ";"
 ```
 ## Supported input shapes
